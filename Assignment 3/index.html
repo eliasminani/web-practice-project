@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Web Page</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1> Interactive Web Page with JavaScript</h1>
+  </header>
+
+  <main>
+    <!-- Part 1: Event Handling -->
+    <section>
+      <h2> Event Handling</h2>
+      <button id="helloBtn">Say Hello</button>
+      <p id="message"></p>
+    </section>
+
+    <!-- Part 2: Interactive Elements -->
+    <section>
+      <h2> Interactive Elements</h2>
+
+      <!-- Light/Dark Mode Toggle -->
+      <div class="feature">
+        <button id="themeToggle">Toggle Light/Dark Mode</button>
+      </div>
+
+      <!-- Counter -->
+      <div class="feature">
+        <button id="countBtn">Click Me</button>
+        <p>Count: <span id="count">0</span></p>
+      </div>
+
+      <!-- Collapsible FAQ -->
+      <div class="feature faq">
+        <h3 class="question">❓ What is JavaScript?</h3>
+        <p class="answer">JavaScript is the magic that makes web pages interactive ⚡</p>
+      </div>
+    </section>
+
+    <!-- Part 3: Form Validation -->
+    <section>
+      <h2>📋 Signup Form</h2>
+      <form id="signupForm">
+        <input type="text" id="name" placeholder="Name">
+        <input type="email" id="email" placeholder="Email">
+        <input type="password" id="password" placeholder="Password">
+        <button type="submit">Sign Up</button>
+        <p id="formMsg"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p> Built with HTML, CSS & JavaScript</p>
+  </footer>
+</body>
+</html>
